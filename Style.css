@@ -2,3 +2,16 @@
     color: white;
     width: 500px;
 }
+.YuviMid{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.midCom{
+    width: 600px;
+}
+header{
+    margin-bottom: 115px;
+}

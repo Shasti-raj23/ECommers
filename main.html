@@ -10,7 +10,8 @@
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="fixed-top">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
             <div class="container">
                 <div class="inner-flex" >
                     <span class="navbar-text ">Welcome to <span style="color: red;">Yuvi</span>Pep Store</span>
@@ -47,42 +48,27 @@
         </div>
 
           </nav>
-    <nav class="navbar navbar-expand-lg bg-primary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <nav class="navbar navbar-expand-lg" style="background-color: #231F40;">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#" style="color: white;">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="color: white;">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" style="color: white;">Disabled</a>
+                </li>
               </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </nav>
+            </div>
+          </nav>
+          
+  </div>
   </header>
   <div id="carouselExample" class="carousel slide">
     <div class="carousel-inner">
@@ -163,12 +149,106 @@
     </div>
   </div>
  </div>
+<!-- this is just a compnent -->
+<div class="YuviMid">
+  <div class="card mb-3 border border-secondary border-dotted midCom" style="max-width: 540px; ">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="./photo/CardCom.png" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h3 class="card-title">Innovation Tinker Kit</h3>
+          <p class="card-text">An "Innovation Tinker Kit" is an electronics kit designed for educational purposes and prototyping. These kits are often aimed at beginners or those new to electronics and programming and typically include a range of components and modules that can be used to build various electronic projects. The idea is to encourage tinkering, experimentation, and learning about electronics and programming in a hands-on way.</p>
+          <h5 class="card-title">₹ 1749</h5>
+          <a href="#" class="btn" style="background-color: #24379E; color: white;">Shop Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+<h3>Popular Products</h3>
+<div class="container">
+  <div class="card-group">
+    <div class="card">
+      <img src="./photo/Raspberry.png" class="card-img-top" >
+      <div class="card-body">
+        <h5 class="card-title">Raspberry Pi 4 Model - 4GB RAM</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <div class="card-footer bg-warning border-success"><b>$ 50</b></div>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./photo/MAS830.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">MAS830 Multimeter</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.This content is a little bit longer</p>
+        <div class="card-footer bg-warning border-success"><b>$ 50</b></div>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./photo/SolarPammel.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Solar Pannel(80*40)</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <div class="card-footer bg-warning border-success"><b>$ 50</b></div>
+      </div>
+   </div>
+  <div class="card">
+  <img src="./photo/TouchSensor.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Touch Sensor 8-Way</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    <div class="card-footer bg-warning border-success"><b>$ 50</b></div>
+  </div>
+</div>
+  </div>
+</div>  
 
-        
-    
-    
 
 
+
+<!-- this banner -->
+
+
+<p><b>From Ideation to Prototyping: YuviPep's R&D experts empower students to innovate</b></p>
+<h2><b>Project Assistance by YuviPep</b></h2>
+<!-- just below the banner -->
+<div class="d-flex justify-content-evenly">
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</div>
  <footer style="background-color: #231F40;">
     <div class="container">
     <div class="d-flex flex-row">
