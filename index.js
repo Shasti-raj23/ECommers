@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const App =Express()
 
-
+App.use(Express.static(__dirname))
 
 App.get("/",(req,res)=>{
     res.sendFile(__dirname+"/main.html")
