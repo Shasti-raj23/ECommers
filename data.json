@@ -1,6 +1,7 @@
 
     {
-        "BatteryHolder":{
+        "id":1,
+        "batteryholder":{
             "1.5":{
                 "img":"./photo/BatteryHolder/1batterHolder.png",
                 "name":"1.5V 1S AA battery",
