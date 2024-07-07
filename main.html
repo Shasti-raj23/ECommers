@@ -9,6 +9,23 @@
     <link href="Style.css" rel="stylesheet">
   </head>
   <body>
+    <script>
+      function readMore(){
+        var read = document.getElementById("read")
+        var moreText = document.getElementById("more");
+        var readl = document.getElementById("readLess")
+        console.log("this is clicked")
+        if(moreText.style.display == "none"){
+          moreText.style.display = "inline";
+          read.style.display ="none"
+          readl.style.display = "inline"
+        }else{
+          moreText.style.display="none"
+          read.style.display ="inline"
+          readl.style.display = "none"
+        }
+      }
+    </script>
     <header>
       <div class="fixed-top">
         <nav class="navbar navbar-expand-lg bg-body-tertiary ">
@@ -93,7 +110,7 @@
  <div class="container">
   <div class="card-group">
     <div class="card">
-      <img src="./photo/Arduino.jpg" class="card-img-top" alt="...">
+      <img src="./photo/Arduino.jpg" class="card-img-top zoom" alt="...">
       <div class="card-body">
         
         <p class="card-text">Arduino</p>
@@ -101,7 +118,7 @@
       </div>
     </div>
     <div class="card">
-      <img src="./photo/Wheels.png" class="card-img-top" alt="...">
+      <img src="./photo/Wheels.png" class="card-img-top zoom" alt="...">
       <div class="card-body">
         
         <p class="card-text">Wheels & Gear</p>
@@ -109,7 +126,7 @@
       </div>
     </div>
     <div class="card">
-      <img src="./photo/AllSensor.jpg" class="card-img-top" alt="...">
+      <img src="./photo/AllSensor.jpg" class="card-img-top zoom" alt="...">
       <div class="card-body">
         
         <p class="card-text">All Sensor</p>
@@ -117,7 +134,7 @@
       </div>
     </div>
     <div class="card">
-        <img src="./photo/DCPwer.jpg" class="card-img-top" alt="...">
+        <img src="./photo/DCPwer.jpg" class="card-img-top zoom" alt="...">
         <div class="card-body">
           
           <p class="card-text">DC PowerJack</p>
@@ -125,7 +142,7 @@
         </div>
     </div>
     <div class="card">
-        <img src="./photo/Gear.jpg" class="card-img-top" alt="...">
+        <img src="./photo/Gear.jpg" class="card-img-top zoom" alt="...">
         <div class="card-body">
           
           <p class="card-text">Gear</p>
@@ -133,7 +150,7 @@
         </div>
     </div>
     <div class="card">
-        <img src="./photo/TrackBelt.jpg" class="card-img-top" alt="...">
+        <img src="./photo/TrackBelt.jpg" class="card-img-top zoom" alt="...">
         <div class="card-body">
           
           <p class="card-text">TrackBelt & Chain</p>
@@ -141,11 +158,13 @@
         </div>
     </div>
     <div class="card">
-        <img src="./photo/SolarPower.jpg" class="card-img-top" alt="...">
+        <img src="./photo/SolarPower.jpg" class="card-img-top zoom" alt="...">
         <div class="card-body">
           
           <p class="card-text">SolarPower</p>
+          
         </div>
+        <p class="card-footer" style="background-color: green;"></p>
     </div>
   </div>
  </div>
@@ -214,38 +233,52 @@
 
 <p><b>From Ideation to Prototyping: YuviPep's R&D experts empower students to innovate</b></p>
 <h2><b>Project Assistance by YuviPep</b></h2>
+<div class="d-flex">
+  <div class="p-6">
+  <h4><b>How YuviPep helps students in their project building</b></h4>
+  <p>YuviPep provides an exciting and innovative platform for students to transform their ideas into reality. We help children throughout their innovation journey, from concept to completion. We believe every child holds tremendous potential; all they need is guidance. Our skilled R&D 
+    experts provide personalised mentorship to help students overcome challenges and achieve their goals. Our guided mentorship <span id="read" onclick="readMore()" type="button" style="color: blue;">read more</span><span id="more">and the hands-on learning environment encourage children to develop groundbreaking prototypes and products that impact the world. </span ><span id="readLess" onclick="readMore()" type="button" style="display: none; color: blue;">read less</span></p>
+  </div>
+</div>
 <!-- just below the banner -->
+<H2><B>Shop By Wheels & Gears</B></H2>
 <div class="d-flex justify-content-evenly">
   <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
+    <img src="./photo/Gear8512.png" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <h5 class="card-title">Gear Plastic 85X12mm</h5>
+      <p class="card-text">A plastic gear is a mechanical...</p>
+      <p class="card-text">$ 81</p>
+      <a href="#" class="btn btn-primary">Add to cart</a>
+      <a href="#" class="btn">Buy Now</a>
     </div>
   </div>
   <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
+    <img src="./photo/Gear6012.png" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <h5 class="card-title">Gear Plastic 60X12mm</h5>
+      <p class="card-text">This plastic gear with 38 teeth is...</p>
+      <p class="card-text">$ 85</p>
+      <a href="#" class="btn btn-primary">Add to card</a>
+      <a href="#" class="btn">Buy Now</a>
     </div>
   </div>
   <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
+    <img src="./photo/Gear9010.png" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <a href="#" class="btn btn-primary">Add to cart</a>
+      <a href="#" class="btn">Buy Now</a>
     </div>
   </div>
   <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
+    <img src="./photo/Gear5020.png" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <a href="#" class="btn btn-primary">Add to cart</a>
+      <a href="#" class="btn">Buy Now</a>
     </div>
   </div>
 </div>

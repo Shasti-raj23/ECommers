@@ -9,9 +9,16 @@
     justify-content: center;
 
 }
+.zoom:hover{
+    transform: scale(1.2);
+    z-index: 1;
+}
 .midCom{
     width: 600px;
 }
 header{
     margin-bottom: 115px;
+}
+#more{
+    display: none;
 }
