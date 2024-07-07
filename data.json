@@ -1,0 +1,37 @@
+
+    {
+        "BatteryHolder":{
+            "1.5":{
+                "img":"./photo/BatteryHolder/1batterHolder.png",
+                "name":"1.5V 1S AA battery",
+                "price":52
+            },
+            "14.8":{
+                "img":"./photo/BatteryHolder/14batteryHolder.png",
+                "name":"1.48V 4S AA battery",
+                "price":70
+            },
+            "3.7":{
+                "img":"./photo/BatteryHolder/3.7batterHolder.png",
+                "name":"3.7V 1S AA battery",
+                "price":52
+            },
+            "3":{
+                "img":"./photo/BatteryHolder/3V2sbatteryHolder.png",
+                "name":"3V 4S AA battery",
+                "price":28
+            },
+            "6":{
+                "img":"./photo/BatteryHolder/6VbatteryHolder.png",
+                "name":"6V 4S AA battery",
+                "price":23
+            },
+            "9":{
+                "img":"./photo/BatteryHolder/9BatterySnap.png",
+                "name":"9V Battery Snap",
+                "price":5
+            }
+
+            
+        }
+    }
