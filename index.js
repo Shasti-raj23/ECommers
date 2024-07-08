@@ -21,9 +21,10 @@ App.get("/",(req,res)=>{
 })
 App.post("/category",(req,res)=>{
     const query = req.body.category.toLowerCase();
-    // console.log(typeof(data))
-    const result = data.find(item => item.includes(query));
-    res.render(__dirname+"Roboat.ejs",{data:result})
+    
+    const result = data[query]
+    console.log(result)
+    res.render(__dirname+"/Roboat.ejs",{data:result})
 })
 App.listen(3300,()=>{
     console.log("Server is running on port 3300")

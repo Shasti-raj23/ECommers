@@ -34,5 +34,32 @@
             }
 
             
+        },
+        "non-rechargeable":{
+            "AA":{
+                "img":"./photo/BatteryHolder/9BatterySnap.png",
+                "name":"1.5V AA Battery",
+                "price":10
+            },
+            "AAA":{
+                "img":"./photo/BatteryHolder/9BatterySnap.png",
+                "name":"1.5V AAA Battery",
+                "price":14
+            },
+            "LR44":{
+                "img":"./photo/BatteryHolder/9BatterySnap.png",
+                "name":"1.5V LR44 Coin Cell",
+                "price":24
+            },
+            "HW":{
+                "img":"./photo/BatteryHolder/9BatterySnap.png",
+                "name":"9V Battery",
+                "price":24
+            },
+            "CR2032":{
+                "img":"./photo/BatteryHolder/9BatterySnap.png",
+                "name":"CR2032 3V Battery",
+                "price":24
+            }
         }
     }
